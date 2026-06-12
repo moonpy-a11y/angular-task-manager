@@ -124,10 +124,5 @@ The Express server exposes the following RESTful endpoints to manage tasks:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](/home/pymoon_dev/Angular-app/License) file for details.
-
-```
-
----
-
-### `LICENSE`
+This project is licensed under the MIT License. See the [LICENSE]
+(https://github.com/moonpy-a11y/angular-task-manager/blob/main/License) file for details.
