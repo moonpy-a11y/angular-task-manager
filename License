@@ -1,17 +1,14 @@
+Here are the comprehensive and structured `README.md` and `LICENSE` files for your project. I have kept the design professional, highly readable, and free of emoji clutter, while using a Table of Contents to make the README interactive and easy to navigate.
+
+### `README.md`
+
+```markdown
 # Angular Task Manager on Google Cloud
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat&logo=google-cloud&logoColor=white)](https://cloud.google.com/)
-[![Angular](https://img.shields.io/badge/Angular-%23DD0031.svg?style=flat&logo=angular&logoColor=white)](https://angular.dev/)
 
 A full-stack Angular application with Server-Side Rendering (SSR), integrated with an Express Node.js backend, and deployed to Google Cloud Run. The application persists data using a PostgreSQL database hosted on Google Cloud SQL, authenticating securely via IAM service accounts.
-
----
-
-## Go Angular
-
-
-![Full Stack Angular Application Overview](Gemini_Generated_Image_g9csb6g9csb6g9cs.png)
 
 ---
 
@@ -30,11 +27,11 @@ A full-stack Angular application with Server-Side Rendering (SSR), integrated wi
 
 This project utilizes a modern, serverless Google Cloud stack:
 
-* **Frontend**: Angular 19 (Standalone Components, SSR)
-* **Backend**: Node.js with Express (integrated via `@angular/ssr/node`)
-* **Database**: PostgreSQL 14 hosted on Google Cloud SQL
-* **Authentication**: Google Cloud IAM Authentication (No raw database passwords stored in code)
-* **Hosting**: Google Cloud Run (Fully managed serverless container execution)
+*   **Frontend**: Angular 19 (Standalone Components, SSR)
+*   **Backend**: Node.js with Express (integrated via `@angular/ssr/node`)
+*   **Database**: PostgreSQL 14 hosted on Google Cloud SQL
+*   **Authentication**: Google Cloud IAM Authentication (No raw database passwords stored in code)
+*   **Hosting**: Google Cloud Run (Fully managed serverless container execution)
 
 ---
 
@@ -42,12 +39,23 @@ This project utilizes a modern, serverless Google Cloud stack:
 
 To manage and deploy this application, ensure you have the following installed and configured:
 
-* [Google Cloud SDK (`gcloud` CLI)](https://cloud.google.com/sdk/docs/install)
-* [Node.js](https://nodejs.org/) (v18 or higher)
-* [Angular CLI](https://angular.dev/)
-* [GitHub CLI (`gh`)](https://cli.github.com/)
+*   [Google Cloud SDK (`gcloud` CLI)](https://cloud.google.com/sdk/docs/install)
+*   [Node.js](https://nodejs.org/) (v18 or higher)
+*   [Angular CLI](https://angular.io/cli)
+*   [GitHub CLI (`gh`)](https://cli.github.com/)
 
 ---
+
+## Project Setup
+
+### 1. Google Cloud Configuration
+Ensure you are authenticated and have set your target project:
+
+```bash
+gcloud auth login
+gcloud config set project [YOUR_PROJECT_ID]
+
+```
 
 Enable the necessary APIs for the application to function:
 
@@ -125,5 +133,34 @@ The Express server exposes the following RESTful endpoints to manage tasks:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+
+```
+
+---
+
+### `LICENSE`
+
+```text
+MIT License
+
+Copyright (c) 2026 moonpy-a11y
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ```
