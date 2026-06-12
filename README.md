@@ -124,6 +124,10 @@ The Express server exposes the following RESTful endpoints to manage tasks:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](/home/pymoon_dev/Angular-app/License) file for details.
 
 ```
+
+---
+
+### `LICENSE`
